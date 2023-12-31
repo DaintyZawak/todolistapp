@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="entireWrapper">
+      <div class="toDoList" id="toDoList">
+        <div class="iconWrapper">
+        <div class="todoListIconWrapper">
+          <img
+            class="todoListIcon"
+            src="./assets/—Pngtree—to do list icon cartoon_5080528.png"
+            alt="todolisticon"
+          />
+        </div>
+        <h1>My Daily Todos</h1>
+
+        <div class="babyCharacterWrapper">
+          <img
+            class="babyCharacter"
+            src="./assets/happybabycharacter.jpg"
+            alt="happybabycharacter"
+          />
+        </div>
+
+        </div>
+        
+        <div class="inputWrapper">
+          <input type="text" id="userInput" placeholder="My todos..." />
+          <span onclick="addElement()" class="addInputBtn">Add</span>
+
+          
+        </div>
+        
+      </div>
+      <div class="ulContainer">
+        <ul id="myList">
+          <li>Wake up</li>
+          <li class="checked">Pray</li>
+          <li>Prep meal</li>
+          <li>Wash the dishes</li>
+          <li>Freshen up and get dressed</li>
+          <li>Go to work</li>
+          <li>Study JavaScript</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
